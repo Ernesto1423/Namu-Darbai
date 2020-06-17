@@ -1,0 +1,18 @@
+body {
+	font-family: sans-serif;
+}
+/* Headings related */
+
+h1, h2 {
+	color: #ff3399;
+}
+
+/* Paragraph related */
+
+.important-paragraph {
+	font-weight: 600
+}
+
+span {
+	font-style: italic;
+}
