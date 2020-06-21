@@ -1,0 +1,50 @@
+body {
+	background-color: #4032a8;
+	font-family: fantasy;
+}
+
+.content-wrap {
+	text-align: center;
+	max-width: 850px;
+	margin: auto;
+	background-color: #bb99ff;
+}
+
+span, legend {
+	background-color: #d9d9d9;
+}
+
+/* first name last name form styling*/
+
+.name-form__name, .name-form__last-name {
+	display: inline;
+}
+
+/* big form */
+
+div {
+	padding: 15px;
+}
+
+div .questionaire-form-comprehensive__comment-section--comment-area {
+	padding: 5px 0 20px 0;
+}
+
+div .questionaire-form-comprehensive__checkbox--list-items {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+div .questionaire-form-comprehensive__button-submit {
+	background-color: #3333ff;
+	border: none;
+	color: #ffffff;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+
