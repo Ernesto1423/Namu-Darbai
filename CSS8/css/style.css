@@ -1,0 +1,121 @@
+/* registration form content only */
+
+.reg-form {
+	max-width: 650px;
+	/* find real color value */
+	background-color: #ffffb3;
+}
+
+.form, .table-wrap, h2, p {
+	padding-left: 15px;
+}
+.form, .table-wrap {
+	padding-bottom: 20px;
+}
+div.title-text h2 {
+	padding-top: 35px;
+}
+p {
+	margin-top: -20px;
+}
+
+/* flex box starts here */
+div .reg-form--form__name-lname-email {
+	max-width: 500px;
+	display: flex;
+	flex-direction: column;
+}
+/* flex box ends here */
+.reg-form--form__name-lname-email--name, .reg-form--form__name-lname-email--last-name, .reg-form--form__name-lname-email--email {
+	margin-bottom: 3px;
+}
+
+div .reg-form--form__name-lname-email--button {
+	width: 100%;
+	height: 25px;
+	
+	border-radius: 4px;
+	background-color: #cccccc;
+
+}
+#email, #last-name, #name {
+	border-style: inset;
+	border-radius: 4px;
+	height: 20px;
+	width: 58%;
+	float: right;
+	background-color: #ffffff;
+	
+}
+
+/* table content only */
+h2 {
+	padding-bottom: 20px;
+	padding-top: 35px;
+}
+
+.list-content-wrap {
+	max-width: 650px;
+	background-color: #c9f2aa;
+	margin-top: -15px;
+}
+
+.table-wrap {
+	width: 610px;
+}
+
+/* flex box start */
+.table-heading, .table-row1, .table-row2 {
+	display: flex;
+}
+
+.table-heading--name, .table-row1--name, .table-row2--name {
+	width: 50%;
+	padding: 5px 1px;
+}
+
+.table-heading--last-name, .table-row1--lname, .table-row2--lname {
+	width: 20%;
+	padding: 5px 1px;
+}
+
+.table-heading--email, .table-row1--mail, .table-row2--mail {
+	width: 30%;
+	padding: 5px 1px;
+}
+/* flex box end */
+
+.table-heading, .table-row2--lname, .table-row1--lname, .table-row1--mail, .table-row2--mail {
+	text-align: center;
+}
+
+.table-heading {
+	background-color: #b366ff;
+}
+
+.table-row2--lname, .table-row1--lname {
+	border-right: inherit;
+	border-left: inherit;
+}
+
+.table-row1--name, .table-row2--name {
+	padding-left: 5px;
+}
+/* Table borders */
+.table-heading {
+	border: black solid 1px;
+}
+
+.table-row1 {
+	border: black solid 2px;
+	border-top: hidden;
+	border-bottom: hidden;
+}
+
+.table-row2 {
+	border: black solid 2px;
+}
+
+/* Table borders end here */
+
+
